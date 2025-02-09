@@ -1,0 +1,17 @@
+TILocalizationTemplate.displayName.en=English
+TILocalizationTemplate.displayName.fr=Français
+TILocalizationTemplate.displayName.deu=Deutsch
+TILocalizationTemplate.displayName.esp=Español
+TILocalizationTemplate.displayName.cht=中文（繁體）
+TILocalizationTemplate.displayName.chs=中文（简体）
+TILocalizationTemplate.displayName.jpn=日本語
+TILocalizationTemplate.displayName.rus=Русский
+TILocalizationTemplate.displayName.kor=한국어
+TILocalizationTemplate.displayName.ita=Italiano
+TILocalizationTemplate.displayName.pol=Polski
+TILocalizationTemplate.displayName.por=Português
+TILocalizationTemplate.displayName.nld=Nederlands
+TILocalizationTemplate.displayName.cze=Čeština
+TILocalizationTemplate.displayName.ukr=Українська
+TILocalizationTemplate.displayName.ara=العربية
+TILocalizationTemplate.displayName.tur=Türkçe

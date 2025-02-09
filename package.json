@@ -1,0 +1,13 @@
+{
+  "name": "terra-invicta-tech-tree",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "lite-server",
+    "format": "prettier --write \"**/*.{js,html,css,json}\""
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "prettier": "^3.2.5"
+  }
+}

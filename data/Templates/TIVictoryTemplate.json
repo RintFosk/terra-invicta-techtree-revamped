@@ -1,0 +1,111 @@
+[
+  {
+    "dataName": "vc_appeaseVictory",
+    "victoryEffect": "HumanNationsToWinningFaction",
+    "victoryConditions": [
+      {
+        "conditionType": "GlobalPopulationProportion",
+        "value": 0.6
+      },
+      {
+        "conditionType": "GlobalGDPProportion",
+        "value": 0.5
+      },
+      {
+        "conditionType": "MinProAlienFleetPower",
+        "value": 0.8
+      }
+    ]
+  },
+  {
+    "dataName": "vc_cooperateVictory",
+    "victoryEffect": "EndGame",
+    "victoryConditions": [
+      {
+        "conditionType": "GlobalPopulationProportion",
+        "value": 0.6
+      },
+      {
+        "conditionType": "GlobalGDPProportion",
+        "value": 0.6
+      },
+      {
+        "conditionType": "MaxOtherFactionsFleetPower",
+        "value": 0.25
+      }
+    ]
+  },
+  {
+    "dataName": "vc_destroyVictory",
+    "victoryEffect": "EndGame",
+    "victoryConditions": [
+      {
+        "conditionType": "AlienNationMaxRegionProportion",
+        "value": 0
+      },
+      {
+        "conditionType": "ProAlienMaxRegionProportion",
+        "value": 0.2
+      },
+      {
+        "conditionType": "FreePlanets_DefeatAliensAndAllies",
+        "value": 3
+      },
+      {
+        "conditionType": "FreeFleets_DefeatAliensAndAllies",
+        "value": 2000
+      }
+    ]
+  },
+  {
+    "dataName": "vc_escapeVictory",
+    "victoryEffect": "none",
+    "victoryConditions": []
+  },
+  {
+    "dataName": "vc_exploitVictory",
+    "victoryEffect": "EndGame",
+    "victoryConditions": [
+      {
+        "conditionType": "GlobalPopulationProportion",
+        "value": 0.5
+      },
+      {
+        "conditionType": "GlobalGDPProportion",
+        "value": 0.6
+      },
+      {
+        "conditionType": "MaxOtherFactionsFleetPower",
+        "value": 0.35
+      }
+    ]
+  },
+  {
+    "dataName": "vc_resistVictory",
+    "victoryEffect": "EndGame",
+    "victoryConditions": [
+      {
+        "conditionType": "AlienNationMaxRegionProportion",
+        "value": 0
+      },
+      {
+        "conditionType": "MaxProAlienFleetPower",
+        "value": 0.25
+      }
+    ]
+  },
+  {
+    "dataName": "vc_submitVictory",
+    "victoryEffect": "HumanNationsToAlienNation",
+    "victoryConditions": [
+      {
+        "conditionType": "AlienNationMinPopulationProportion",
+        "value": 0.65
+      },
+      {
+        "conditionType": "MinProAlienFleetPower",
+        "value": 0.9
+      }
+    ]
+  }
+]
